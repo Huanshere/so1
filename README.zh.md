@@ -4,7 +4,7 @@
 
 让 claude 3.5 sonnet 生成 o1 一样的思维链！
 
-😎 100% 解决 "9.9,9.11" 和 "strawberry" 问题:
+😎 100% 解决 "9.9,9.11" 和 80% 解决"strawberry" 问题:
 
 ![demo](https://github.com/user-attachments/assets/98cc7914-5491-4cdb-84f0-618b9200792f)
 
