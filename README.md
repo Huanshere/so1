@@ -4,7 +4,7 @@
 
 Make Claude 3.5 Sonnet generate thought chains like o1!
 
-😎 100% solves the "9.9,9.11" and "strawberry" problems:
+😎 100% solves the "9.9,9.11" and 80% for "strawberry" problems:
 
 ![demo](https://github.com/user-attachments/assets/043ef6b1-11bf-4512-8297-3127aa7b7734)
 
