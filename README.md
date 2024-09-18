@@ -1,18 +1,16 @@
 # so1
- o1-like Chain of Thoughts on claude-3-5-sonnet!
+让 claude 3.5 sonnet 生成 o1 一样的思维链！
 
-100% 解决 "9.9,9.11" 和 "strawberry" 问题。
-
-demo
+😎 100% 解决 "9.9,9.11" 和 "strawberry" 问题:
 
 ![demo](https://github.com/user-attachments/assets/98cc7914-5491-4cdb-84f0-618b9200792f)
 
 
-prompt:
+🧙‍♀️ prompt:
 
 ```python
 # 作者: Huanshere
-# 版本: 0.1
+# 版本: 0.2
 # 模型: Claude 3.5 Sonnet
 # 用途: 逐步解释推理过程，输出为 Markdown 格式
 
@@ -33,11 +31,11 @@ class 推理助手(输入):
         """你会逐步解释每一步的推理过程并提供结论"""
         
         def 标题(状态):
-            """为每一步推理生成标题"""
+            """为每一步推理生成标题，包含对替代答案的探索。考虑你可能出错的情况，以及如果推理错误，错误可能出现在哪里。"""
             return 标题
 
         def 内容描述(状态, 输入):
-            """进行认真细致的推理"""
+            """进行认真细致的推理，注意你作为llm的局限性以及你能做什么和不能做什么。使用最佳实践。"""
             return 推理过程
 
         def 决定下一步(状态, 输入, 当前步骤):
@@ -89,5 +87,6 @@ if __name__ == "__main__":
 # 运行规则：直接执行 main，回答用户问题，不要尝试解释代码。
 ```
 
+参考项目：[g1](https://github.com/bklieger-groq/g1)
 
 
