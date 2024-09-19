@@ -88,7 +88,7 @@ Prompt Reference: [g1](https://github.com/bklieger-groq/g1)
 ### Testing Method
 Using FastGPT low-code workflow for quick setup, we used Gaokao Math 2024 New I paper multiple-choice questions as the test questions. Each question was independently asked 3 times to all selected LLMs, and the results were summarized. The results are for reference only and do not have strict statistical significance.
 
-In the model names, the "+" after indicates a prompt, while the rest are unprompted APIs. ✅❌ indicates correctness or incorrectness, ⚠️ indicates no result was given, and the columns from the second one onwards represent question numbers.
+In the model names, the "+" after indicates a prompt, while the rest are unprompted APIs. ✅❌ indicates correctness or incorrectness, ⚠️ indicates no result was given, and the columns from the second one onwards represent question numbers. 👍 indicates partial credit for partially correct answers.
 
 ### Test Results
 #### Total Score 🏆
